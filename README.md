@@ -1,7 +1,7 @@
 ## 📌 Project Overview
 This project focuses on the end-to-end lifecycle of a healthcare dataset—from raw, unstructured data to a high-fidelity analytical dashboard. The core challenge involved a dataset of 54,000+ hospital records containing significant naming inconsistencies and structural errors.
 
-This synthetic healthcare dataset sourced from [Kaggle](https://www.kaggle.com/) which provides a foundation for my analysis, its contains a detail of patient information such as blood type, medical condition, admission type etc. I answered seven most critical questions such as th top 8 doctors by revenue, average length of stay by admission type, which admission type is more expensive and more.
+This synthetic healthcare dataset sourced from [Kaggle](https://www.kaggle.com/) which provides a foundation for my analysis, its contains a detail of patient information such as blood type, medical condition, admission type etc. I answered seven most critical questions such as the top 8 doctors by revenue, average length of stay by admission type, which admission type is more expensive and more.
 
 ## The Questions
 In this project, I tasked myself with answering these seven most critical questions to help the department understand what happened and what should be the next decisions.
@@ -21,7 +21,7 @@ During the analysis, I explored the power of a varies of analytical tools:
   
 - **Power Query:** I harnessed the power of this tool by applying deep cleaning on the data like replacing missing values, converting DATE column from text to date, and helped me ordered hospitals names from "Sons and Miller" to "Miller and Sons". I further used this tool to create four different tables which include the Facts Table and three dimensional tables namely, Doctor Table, Hospital Table, and Insurance Table. This way, we can avoid chocking all the data into one table and make the visualization process easier.
   
-- **Power BI:** My go-to tool for outstanding visualization and creating executive-ready dashboards. Its also helped me established relationship among the three dimensional tables and the Facts Table, by connecting these three dimensional tables to the main table which is the Facts Table, will help us reduce noise and visualize our data with ease.
+- **Power BI:** My go-to tool for outstanding visualizations and creating executive-ready dashboards. Its also helped me established relationship among the three dimensional tables and the Facts Table, by connecting these three dimensional tables to the main table which is the Facts Table, will help us reduce noise and visualize our data with ease.
 
 ### Data Preparation & and Cleanup
 This section demonstrate the steps taken to prepare the data for analysis, ensuring accuracy and usability
@@ -109,11 +109,53 @@ I used line chart to plot the monthly admission trends for better insights
 
 **Plateau Performance:** The hospital hits a consistent "ceiling" of 155 admissions in multiple months (January, March, May, July, August, October, and December), suggesting a maximum capacity or a standard operational target.
 
-## 7 
+## 7 Year-to-Date Revenue Trend
+**Continuous Progression:** Line charts are the gold standard for time-series data. Unlike bars, which emphasize individual totals, a line emphasizes the movement and relationship between consecutive months.
 
+## Visual
+![year-to-date revenue trend](https://github.com/AlhajiMarrah/Power-BI-Data-Project/blob/main/monthly_revenue_trend.png)
 
+*A line chart showing year-to-date revenue trend*
 
+## Insight
+**Peak Performance in October:** The hospital achieved its highest monthly revenue in October at $4.28M. This serves as the primary benchmark for peak operational capacity during the year.
 
+**Initial Q1 Volatility:** The year began with a strong January ($4.18M), followed by a significant dip in February and a recovery in March. This suggests a highly variable start to the fiscal year.
+
+**Q2 Low Point:** Revenue bottomed out in April ($3.55M), representing the lowest financial point in the dataset. Identifying the cause of this dip (e.g., lower elective surgery volume) would be a key diagnostic priority.
+
+**Steady Mid-Year Recovery:** Following the April low, the hospital saw a consistent "wave" of recovery through the summer months, maintaining a range between $3.78M and $3.93M.
+
+**Year-End Decline:** After the October peak, revenue showed a steady downward trend, ending the year in December at $3.63M, which is nearly $1M lower than the peak two months prior.
+
+## What I Learned
+Here are few knowledge that I gained from this project:
+
+**Data Cleaning:** Through out this project, I learned that data cleaning is the foundation of every analysis. In order to get an accurate result, the data must be clean, and organize. And I learnt that from the very beginning of this project.
+
+**Power Query:** Due to the inconsistent entries and missing values of this dataset, I used advance features in power query to professionally handle these errors which helped me brush up on my skills.
+
+**Dax Formulas:** After cleaning and standardizing the dataset, I imported it into Power BI and wrote some dax functions to calculate all the metrics including  total revenue, length of stay, and average length of stay. This really helped me improve my skill on calculating metrics by writing dax code.
+
+**Visualization:** As you all know a cleaned and organized data cannot provide any readable insight. And that's where visualization comes in, by visualizing this data shows that I have immensely upgraded my skills when it comes to this part of data analytics.
+
+## 🏁 Conclusion
+This project successfully transformed a fragmented healthcare dataset into a centralized, high-fidelity analytical tool. By bridging the gap between raw data engineering and strategic visualization, the project achieved the following outcomes:
+
+**🛠️ Technical Problem Solving**
+The most significant hurdle was the structural inconsistency within the hospital naming conventions. By implementing a custom Python/Regex cleaning pipeline, I standardized over 54,000 records, ensuring data integrity and enabling accurate grouping and regional analysis. This phase highlighted the importance of "Data Wrangling" as a prerequisite for trustworthy business intelligence.
+
+**💡 Data-Driven Insights**
+The first dashboard [here](https://github.com/AlhajiMarrah/Power-BI-Data-Project/blob/main/Dashboard_1.png) and the final dashboard [here](https://github.com/AlhajiMarrah/Power-BI-Data-Project/blob/main/Dashboard_2.png) uncovered several critical operational patterns:
+
+**Revenue Stability:** A balanced distribution of billing across insurance providers (less than a $1M spread) indicates a healthy, diversified revenue risk profile.
+
+**Performance Benchmarking:** Identified the "Elite 3" hospitals and top medical staff, providing a benchmark for operational excellence across the network.
+
+**Operational Consistency:** Despite fluctuations in admission routes (Emergency vs. Elective), the hospital maintains a consistent two-week average patient turnover, allowing for predictable resource planning.
+
+**🎯 Final Impact**
+The resulting Hospital Operational Performance Overview serves as more than just a collection of charts, it is a diagnostic tool. It empowers hospital administrators to move from reactive management to proactive strategy—optimizing high-value elective pipelines and identifying seasonal trends before they impact the bottom line.
 
 
 
