@@ -43,7 +43,7 @@ A horizontal bar chart was selected for the "Top 8 Doctors" visual to prioritize
 The visual shows that revenue is relatively evenly distributed among the top tier of performers. There is no "superstar" doctor significantly outperforming the rest, the gap between the top performer, Jessica Williams ($80K), and the eighth, Kimberly Gonzalez ($59K), is only $21K. This suggests a healthy, balanced contribution across the lead medical staff rather than a dependency on a single individual.
 
 
-## 2 Total Billing by Insurance Provider
+## Q2 Total Billing by Insurance Provider
 I chose a column chart here because it effectively highlights the magnitude of billing for each provider while providing a necessary visual break from the horizontal rankings elsewhere on the page. It allows us to immediately see that while Cigna leads at $9.9M, the market is highly competitive and evenly split across all five providers, with less than a $1M spread between the top and bottom.
 
 ## Visual
@@ -59,7 +59,7 @@ Analyzing the Total Billing by Insurance Provider, reveals a specific narrative 
 
 **Cigna as the Lead Payer:** While the field is crowded, Cigna represents the largest individual revenue stream at $9.9M. This indicates that Cigna is a primary strategic partner for the hospital’s billing department.
 
-## 3 Which Admission Type is More Expensive
+## Q3 Which Admission Type is More Expensive
 A horizontal bar chart was selected for this comparison to optimize for rapid scanning and ranking. Since the goal was to identify the most expensive admission type, the descending sort order and horizontal labels provide the most intuitive 'leaderboard' experience for the stakeholder.
 
 ## Visual
@@ -72,7 +72,7 @@ A horizontal bar chart was selected for this comparison to optimize for rapid sc
 
 **Marginal Difference Between Urgent and Emergency:** There is a relatively small gap between Urgent ($15.3M) and Emergency ($14.9M) billing. This suggests that while elective care is the leader, the hospital maintains a very high and consistent volume of non-scheduled, high-acuity care that nearly matches the revenue of the elective department.
 
-## 4 What are The Top 8 Hospitals by Revenue
+## Q4 What are The Top 8 Hospitals by Revenue
 For the Top 8 Hospitals by Revenue visual, the horizontal bar chart remains the optimal choice
 
 ## Visual
@@ -83,7 +83,7 @@ For the Top 8 Hospitals by Revenue visual, the horizontal bar chart remains the 
 ## Insight
 **Significant Performance "Step-Down":** There is a noticeable "cliff" or drop-off in revenue after the top three. While Williams Inc generated $116K, the fourth-ranked facility, Thompson PLC, drops to $98K—a significant 15% decrease. This indicates a distinct gap between the "high-tier" and "mid-tier" hospitals.
 
-## 5 What are The Average Length of Stay by Admission Type?
+## Q5 What are The Average Length of Stay by Admission Type?
 For the Average Length of Stay by Admission Type visual, a column bar chart was chosen to highlight volume and facilitate a quick comparative analysis across categories.
 
 ## Visual
@@ -96,7 +96,7 @@ For the Average Length of Stay by Admission Type visual, a column bar chart was 
 
 - **Emergency vs. Urgent Parity:** There is a very narrow margin between Emergency (15.3 days) and Urgent (14.6 days) admissions. This indicates that regardless of how a patient enters the system (immediate emergency vs. pressing urgency), the clinical pathway and recovery time remain relatively consistent.
 
-## 6 Monthly Admission Trends
+## Q6 Monthly Admission Trends
 I used line chart to plot the monthly admission trends for better insights
 
 ## Visual
@@ -109,7 +109,7 @@ I used line chart to plot the monthly admission trends for better insights
 
 **Plateau Performance:** The hospital hits a consistent "ceiling" of 155 admissions in multiple months (January, March, May, July, August, October, and December), suggesting a maximum capacity or a standard operational target.
 
-## 7 Year-to-Date Revenue Trend
+## Q7 Year-to-Date Revenue Trend
 **Continuous Progression:** Line charts are the gold standard for time-series data. Unlike bars, which emphasize individual totals, a line emphasizes the movement and relationship between consecutive months.
 
 ## Visual
