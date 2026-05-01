@@ -137,7 +137,7 @@ Here are few knowledge that I gained from this project:
 
 **Dax Formulas:** After cleaning and standardizing the dataset, I imported it into Power BI and wrote some dax functions to calculate all the metrics including  total revenue, length of stay, and average length of stay. This really helped me improve my skill on calculating metrics by writing dax code.
 
-**Visualization:** As you all know a cleaned and organized data cannot provide any readable insight. And that's where visualization comes in, by visualizing this data shows that I have immensely upgraded my skills when it comes to this part of data analytics.
+**Visualization:** As you all know a cleaned and organized data cannot provide any readable insight unless it is visualize. And that's where visualization comes in, by visualizing this data shows that I have immensely upgraded my skills when it comes to this part of data analytics.
 
 ## 🏁 Conclusion
 This project successfully transformed a fragmented healthcare dataset into a centralized, high-fidelity analytical tool. By bridging the gap between raw data engineering and strategic visualization, the project achieved the following outcomes:
