@@ -15,14 +15,106 @@ In this project, I tasked myself with answering these seven most critical questi
 7. Which month generated the most revenue
 
 ## Tools I Used
+During the analysis, I explored the power of a varies of analytical tools:
 
+- **Excel:** Used for basic cleaning and removing of duplicates
+  
+- **Power Query:** I harnessed the power of this tool by applying deep cleaning on the data like replacing missing values, converting DATE column from text to date, and helped me ordered hospitals names from "Sons and Miller" to "Miller and Sons". I further used this tool to create four different tables which include the Facts Table and three dimensional tables namely, Doctor Table, Hospital Table, and Insurance Table. This way, we can avoid chocking all the data into one table and make the visualization process easier.
+  
+- **Power BI:** My go-to tool for outstanding visualization and creating executive-ready dashboards. Its also helped me established relationship among the three dimensional tables and the Facts Table, by connecting these three dimensional tables to the main table which is the Facts Table, will help us reduce noise and visualize our data with ease.
 
+### Data Preparation & and Cleanup
+This section demonstrate the steps taken to prepare the data for analysis, ensuring accuracy and usability
 
+### Import and Clean up Data
+I began by importing the dataset into excel and use the necessary functions, followed by initial data cleaning task to ensure usability
 
+## Q1 Who are The Top 8 Doctors by Revenue?
+A horizontal bar chart was selected for the "Top 8 Doctors" visual to prioritize categorical readability and ranking efficiency. By orienting the labels horizontally, we ensure that full names are legible without truncation. The descending sort order provides an immediate "leaderboard" view, allowing stakeholders to compare revenue performance across the top tier of medical staff with minimal cognitive effort.
 
-
-
-
-## Result
+## Visual
 
 ![top_8_doctors_By_revenue](https://github.com/AlhajiMarrah/Power-BI-Data-Project/blob/main/Top_8_Doctors.png)
+
+*A clustered bar chart showing the top 8 doctors by revenue*
+
+## Insight
+**Identifying Revenue Drivers:**
+The visual shows that revenue is relatively evenly distributed among the top tier of performers. There is no "superstar" doctor significantly outperforming the rest, the gap between the top performer, Jessica Williams ($80K), and the eighth, Kimberly Gonzalez ($59K), is only $21K. This suggests a healthy, balanced contribution across the lead medical staff rather than a dependency on a single individual.
+
+
+## 2 Total Billing by Insurance Provider
+I chose a column chart here because it effectively highlights the magnitude of billing for each provider while providing a necessary visual break from the horizontal rankings elsewhere on the page. It allows us to immediately see that while Cigna leads at $9.9M, the market is highly competitive and evenly split across all five providers, with less than a $1M spread between the top and bottom.
+
+## Visual
+
+![top billing by insurance provider](https://github.com/AlhajiMarrah/Power-BI-Data-Project/blob/main/Top%20billing%20by%20insurance.png)
+
+*This column bar chart is showing us the total billing by insurance provider*
+
+## Insight
+Analyzing the Total Billing by Insurance Provider, reveals a specific narrative regarding the hospital's financial ecosystem:
+
+**Market Equilibrium:** The most striking insight is the high level of competition and balance among providers. There is no single dominant payer; instead, the revenue is distributed almost equally across all five major companies.
+
+**Cigna as the Lead Payer:** While the field is crowded, Cigna represents the largest individual revenue stream at $9.9M. This indicates that Cigna is a primary strategic partner for the hospital’s billing department.
+
+## 3 Which Admission Type is More Expensive
+A horizontal bar chart was selected for this comparison to optimize for rapid scanning and ranking. Since the goal was to identify the most expensive admission type, the descending sort order and horizontal labels provide the most intuitive 'leaderboard' experience for the stakeholder.
+
+## Visual
+![which admission type is more expensive](https://github.com/AlhajiMarrah/Power-BI-Data-Project/blob/main/Which%20admission%20type%20most%20expensive.png)
+
+*A horizontal bar chart showing the most expensive admission type*
+
+## Insight
+**Elective Procedures as the Primary Revenue Driver:** Elective admissions are the most expensive category, generating $16.2M. This indicates that scheduled procedures (like surgeries or specialized treatments) are a higher financial priority for the hospital than emergency or urgent care.
+
+**Marginal Difference Between Urgent and Emergency:** There is a relatively small gap between Urgent ($15.3M) and Emergency ($14.9M) billing. This suggests that while elective care is the leader, the hospital maintains a very high and consistent volume of non-scheduled, high-acuity care that nearly matches the revenue of the elective department.
+
+## 4 What are The Top 8 Hospitals by Revenue
+For the Top 8 Hospitals by Revenue visual, the horizontal bar chart remains the optimal choice
+
+## Visual
+![top 8 hospitals by revenue](https://github.com/AlhajiMarrah/Power-BI-Data-Project/blob/main/Top%208%20hospitals.png)
+
+*A horizontal bar chart showing the top 8 hospitals by revenue*
+
+## Insight
+**Significant Performance "Step-Down":** There is a noticeable "cliff" or drop-off in revenue after the top three. While Williams Inc generated $116K, the fourth-ranked facility, Thompson PLC, drops to $98K—a significant 15% decrease. This indicates a distinct gap between the "high-tier" and "mid-tier" hospitals.
+
+## 5 What are The Average Length of Stay by Admission Type?
+For the Average Length of Stay by Admission Type visual, a column bar chart was chosen to highlight volume and facilitate a quick comparative analysis across categories.
+
+## Visual
+![what are the average length of stay](https://github.com/AlhajiMarrah/Power-BI-Data-Project/blob/main/Average%20length%20of%20stay.png)
+
+*A column bar chart demonstrating the average length of stay by admission type*
+
+## Insight
+- **Elective Stays are Longest:** Surprisingly, Elective admissions have the highest average length of stay at 15.6 days. This suggests that scheduled procedures at these facilities may involve complex recovery periods or intensive post-operative care.
+
+- **Emergency vs. Urgent Parity:** There is a very narrow margin between Emergency (15.3 days) and Urgent (14.6 days) admissions. This indicates that regardless of how a patient enters the system (immediate emergency vs. pressing urgency), the clinical pathway and recovery time remain relatively consistent.
+
+## 6 Monthly Admission Trends
+I used line chart to plot the monthly admission trends for better insights
+
+## Visual
+![monthly admission trends](https://github.com/AlhajiMarrah/Power-BI-Data-Project/blob/main/Monthly%20admission%20trends.png)
+
+*A line chart admission trend by month*
+
+## Insight
+**Extreme Seasonal Dip in February:** The most significant insight is the sharp decline in February, where admissions drop to their lowest point of 142. This could indicate a shorter month effect or a specific seasonal trend in hospital availability.
+
+**Plateau Performance:** The hospital hits a consistent "ceiling" of 155 admissions in multiple months (January, March, May, July, August, October, and December), suggesting a maximum capacity or a standard operational target.
+
+## 7 
+
+
+
+
+
+
+
+
